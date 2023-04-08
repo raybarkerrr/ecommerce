@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a{
+  all: unset;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Header Section */
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px;
+  background-color: #fff8e8;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo img{
+  padding-top: 20px;
+    width: 70px;
+    height: auto;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+ul a {
+  color: white;
+}
+
+
+
+#home,
+#about,
+#contact {
+  border-radius: 5px;
+  padding: 5px 8px;
+  padding-left: 1.8em;
+}
+
+.mobile-menu li{
+  border-radius: 5px;
+  padding: 5px 8px;
+  padding-left: 1.8em;
+}
+
+#about a {
+  color: black;
+}
+
+#home a {
+  color: black;
+}
+
+#contact a {
+  color: black;
+}
+
+.menuToggle {
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1.6em;
+  display:none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+ .mobile-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+.fa-bars{
+  color: black;
+}
+
+header button{
+    width: 23%;
+    height: 40px;
+    border: 1;
+    font-weight: bold;
+    border-color: black;
+    background-color: #f6c667;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.fa-cart-shopping {
+  padding-top: 20px;
+}
+
+/* Banner Section */
+
+.banner-left img{
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.banner-left{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #f6c667;
+    height: 70vh;
+}
+
+.banner-right{
+    padding: 2% 7% 2% 7%;
+
+}
+
+.banner-right p{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-right h2{
+  padding-bottom: 10px;
+}
+
+/* What We Do Section */
+
+.what-we-do-mini{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 4% 6% 4% 6%;
+ }
+
+ .what-we-do-content{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+ }
+
+ .what-we-do-content h3{
+  font-size: 1.2em;
+  font-weight: 900;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+ .what-we-do-content p{
+  font-size: 1.2em;
+  line-height: 1.7em;
+  color: #646464;
+}
+
+.fa-mobile-screen-button{
+  color: black;
+  font-size: 3.5rem;
+}
+
+.what-we-do-content img{
+  width: 20%;
+}
+
+/* Menu Section */
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: #fff8e8;
+}
+
+.menu-item-name h3{
+  padding-bottom: 15px;
+}
+
+.menu-item-text p{
+  padding-bottom: 15px;
+}
+  
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item-image {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+  }
+
+  .menu-item-name img{
+    width: 100%;
+  }
+  
+  .menu-item-description {
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .menu-item button{
+    width: 50%;
+    height: 40px;
+    border: 1;
+    font-weight: bold;
+    border-color: black;
+    background-color: #f6c667;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+
+
+
+/* Drinks Section */
+
+.drinks-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1.5em;
+  background-color: #fff8e8;
+}
+
+.drinks-item-name h3{
+padding-bottom: 15px;
+}
+
+.drinks-item-text p{
+padding-bottom: 15px;
+}
+
+.drinks {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.drinks-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.drinks-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.drinks-item-image {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.drinks-item-text {
+  flex-grow: 1;
+}
+
+.drinks-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.drinks-item-name {
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.drinks-item-name img{
+  width: 100%;
+}
+
+.drinks-item-description {
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-family: 'Lato', sans-serif;
+}
+  
+/* Footer Section */
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #feffdf;
+    padding-top: 2rem;
+    font-weight: lighter;
+
+}
+
+.footer h1{
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    letter-spacing: .1rem;
+}
+    
+.footer p{
+    padding-top: .5rem;
+    font-size: .7rem;
+    color: black;
+    font-weight: bold;
+    padding: 2% 7% 2% 7%;
+}
+    
+.fa-brands{
+    color: black;
+    font-size: 2em;
+}
+  
+  /* Menu Toggle */
+
+@media screen and (max-width:600px){
+    .menuToggle{
+        display:block;
+        visibility: visible;
+        opacity: 1;
+        top: 1em;
+        right: 1em;
+    }
+
+    .mobile-menu{
+        display:none;
+    }
+    
+    .mobileMenu.open .mobile-menu {
+        position: absolute;
+        top: 70px;
+        z-index:1;
+        left: 0;
+        height: 60vh;
+        width: 100%;
+        background-color: #fff8e8;
+        display:block;
+      }
+
+      header button{
+        width: 23%;
+        height: 40px;
+        margin-top: .8em;
+        border: 1;
+        font-weight: bold;
+        border-color: black;
+        background-color: #f6c667;
+        cursor: pointer;
+        color: black;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    /* Cart Toggle*/
+
+    .cartToggle{
+      display:block;
+      visibility: visible;
+      opacity: 1;
+      top: 1em;
+      right: 1em;
+  }
+
+  .cart-menu{
+      display:none;
+  }
+  
+  .cartMenu.open .cart-menu {
+      position: absolute;
+      text-align: center;
+      top: 100px;
+      left: 0;
+      height: 60vh;
+      width: 100%;
+      background-color: #fff8e8;
+      display:block;
+    }
+
+    
+
+  }
