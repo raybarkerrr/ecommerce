@@ -15,6 +15,108 @@ body {
   font-family: 'Rajdhani', sans-serif;
 }
 
+/* Shop Card Section */
+
+.shop-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  background-color: #e0e0e0;
+  font-family: 'Gloock', serif;
+}
+
+.shop-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.card {
+  width: 270px;
+  height: 470px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
+.card h2{
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.card p{
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.card h2, p{
+  color: black;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.button-mover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-image {
+  height: 300px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(Photos/38517_INBK.jpg);
+}
+
+.car-2 {
+  background-image: url(Photos/blueshirt.jpeg);
+}
+
+.car-3 {
+  background-image: url(Photos/blueshirt2.webp);
+}
+
+.car-4 {
+  background-image: url(Photos/greyshirt.jpeg);
+}
+
+.car-5 {
+  background-image: url(Photos/redshirt.jpeg);
+}
+
+.car-6 {
+  background-image: url(Photos/redshirt.jpeg);
+}
+
+.car-7 {
+  background-image: url(Photos/redshirt.jpeg);
+}
+
+.car-8 {
+  background-image: url(Photos/redshirt.jpeg);
+}
+
+.shop-button{
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+  padding: .8em;
+  background-color: #1DA1F2;
+  color: white;  
+  cursor: pointer;
+  }
+
+
 
 /* Footer Section */
 
@@ -22,7 +124,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #feffdf;
+    background-color: whitesmoke;
     padding-top: 2rem;
     font-weight: lighter;
 
@@ -48,3 +150,13 @@ body {
     font-size: 2em;
 }
   
+@media only screen and (min-width: 1024px)  {
+
+.carousel-section{
+  padding-left: 20em;
+  padding-right: 20em;
+  padding-bottom: 5em;
+}
+
+
+}
