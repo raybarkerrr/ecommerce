@@ -31,12 +31,12 @@ for (let i = 0; i < images.length; i++) {
     document.pic.src = images[i]
    }
 }
-
-
-
  window.onload=changeImage;
 
+ /* Item Objects */
+
 let items = [
+
   {
     id: 1,
     image: "Photos/blueshirt.jpeg",
@@ -61,4 +61,7 @@ let items = [
     name: "Grey Tee", 
     price: 19.99,
   },
+
 ]
+
+let shoppingCart = []
