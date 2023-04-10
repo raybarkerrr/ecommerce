@@ -191,6 +191,7 @@ header button{
 
 .car-1 {
   background-image: url(Photos/38517_INBK.jpg);
+  
 }
 
 .car-2 {
@@ -233,6 +234,13 @@ header button{
 
 .image-carousel img{
   width: 100%;
+}
+
+.car-1{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  
 }
 
 /* Footer Section */

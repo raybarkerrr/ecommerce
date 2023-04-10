@@ -35,28 +35,30 @@ for (let i = 0; i < images.length; i++) {
 
  /* Item Objects */
 
+let shoppingCart = []
+
 let items = [
 
   {
-    id: 1,
+    id: 0,
     image: "Photos/blueshirt.jpeg",
     name: "Light Blue Tee", 
     price: 29.99,
   },
   {
-    id: 2,
+    id: 1,
     image: "Photos/redshirt.jpeg",
     name: "Red Tee", 
     price: 29.99,
   },
   {
-    id: 3,
+    id: 2,
     image: "Photos/blueshirt2.jpeg",
     name: "Blue Tee", 
     price: 24.99,
   },
   {
-    id: 4,
+    id: 3,
     image: "Photos/greyshirt.jpeg",
     name: "Grey Tee", 
     price: 19.99,
@@ -64,4 +66,6 @@ let items = [
 
 ]
 
-let shoppingCart = []
+  document.getElementById("card1").innerHTML = items[0].name;
+  
+
