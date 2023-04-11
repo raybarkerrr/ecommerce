@@ -66,6 +66,6 @@ let items = [
 
 ]
 
-  document.getElementById("card1").innerHTML = items[0].name;
-  
 
+let cardOneName = document.getElementById("card-1-name");
+let cardName = document.createElement("p");
