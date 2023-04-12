@@ -63,11 +63,13 @@ function renderProdcuts(products) {
       <div class="card" id="card">
         <div class ="card-image car-1"></div>
         <div class="card-1-name" id="card-1-name"></div>
+        <img src="${product.image}" alt="product image" class="product-image">
+        <p>${product.price}</p>
+        <p>${product.name}</p>
         <div class="button-mover">
-            <p>${product.price}</p>
-            <p>${product.name}</p>
             <a href=""><button class="shop-button">Checkout</button></a>
         </div>
+
     </div>`
   });
 }
