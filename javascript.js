@@ -23,7 +23,7 @@ cartToggle.onclick = function() {
 
 let shoppingCart = []
 
-let items = [
+let products = [
 
   {
     id: 0,
@@ -52,6 +52,30 @@ let items = [
 
 ]
 
-const itemName = document.createElement("p");
-itemName.innerText = "This is a paragraph ";
-document.body.appendChild(itemName);
+
+const productsEl = document.querySelector(".products");
+
+// RENDER PRODUCTS
+function renderProdcuts(products) {
+  products.forEach((product) => {
+    productsEl.innerHTML += 
+    `<div class="shop-container">
+      <div class="card" id="card">
+        <div class ="card-image car-1"></div>
+        <div class="card-1-name" id="card-1-name"></div>
+        <div class="button-mover">
+            <p>${product.price}</p>
+            <p>${product.name}</p>
+            <a href=""><button class="shop-button">Checkout</button></a>
+        </div>
+    </div>`
+  });
+}
+
+
+renderProdcuts(products);
+
+
+
+
+
