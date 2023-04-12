@@ -17,21 +17,7 @@ cartToggle.onclick = function() {
    cartMenu.classList.toggle('open');
 }
 
-let i = 0
-let time = 1000;
-let images = ["Photos/redshirt.jpeg", "Photos/blueshirt.jpeg", "Photos/greyshirt.jpeg"];
-let imageContainer = document.getElementById("image-carousel");
 
-for (let i = 0; i < images.length; i++) {
-
-  setTimeout(() => {
-    console.log(images[i]);
-  }, time * i);
-  function changeImage(){
-    document.pic.src = images[i]
-   }
-}
- window.onload=changeImage;
 
  /* Item Objects */
 
@@ -66,6 +52,6 @@ let items = [
 
 ]
 
-
-let cardOneName = document.getElementById("card-1-name");
-let cardName = document.createElement("p");
+const itemName = document.createElement("p");
+itemName.innerText = "This is a paragraph ";
+document.body.appendChild(itemName);
