@@ -21,7 +21,6 @@ cartToggle.onclick = function() {
 
  /* Item Objects */
 
-let shoppingCart = []
 
 let products = [
 
@@ -39,7 +38,7 @@ let products = [
   },
   {
     id: 2,
-    image: "Photos/blueshirt2.jpeg",
+    image: "Photos/blueshirt2.webp",
     name: "Blue Tee", 
     price: 24.99,
   },
@@ -69,7 +68,6 @@ function renderProdcuts(products) {
         <div class="button-mover">
             <a href=""><button class="shop-button">Checkout</button></a>
         </div>
-
     </div>`
   });
 }
@@ -79,5 +77,6 @@ renderProdcuts(products);
 
 
 
+let shoppingCart = []
 
 
