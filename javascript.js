@@ -52,31 +52,16 @@ let products = [
 ]
 
 
-const productsEl = document.querySelector(".products");
+for (let i = 0; i < products.length; i++) {
 
-// RENDER PRODUCTS
-function renderProdcuts(products) {
-  products.forEach((product) => {
-    productsEl.innerHTML += 
-    `<div class="shop-container">
-      <div class="card" id="card">
-        <div class ="card-image car-1"></div>
-        <div class="card-1-name" id="card-1-name"></div>
-        <img src="${product.image}" alt="product image" class="product-image">
-        <p>${product.price}</p>
-        <p>${product.name}</p>
-        <div class="button-mover">
-            <a href=""><button class="shop-button">Checkout</button></a>
-        </div>
-    </div>`
-  });
+  let foodDiv = document.getElementById('food-card');
+  let heading = document.createElement('h1');
+  heading.innerHTML = products[i].name;
+  foodDiv.appendChild(heading); 
+
+
 }
 
 
-renderProdcuts(products);
-
-
-
 let shoppingCart = []
-
 
